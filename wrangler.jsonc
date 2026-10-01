@@ -4,7 +4,15 @@
   "main": ".open-next/worker.js",
   "compatibility_date": "2026-09-30",
   "compatibility_flags": ["nodejs_compat"],
-  "observability": {
+   "observability": {
     "enabled": true
-  }
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "lunatv-db",
+      "database_id": "70971319-8e81-43af-9441-020a1b954ee6"
+    }
+  ]
+}
 }
