@@ -29,6 +29,5 @@
   "exclude": [
     "node_modules",
     "open-next.config.ts",
-  "open-next.config.mjs"],
-  "moduleResolution": ["node_modules", ".next", "node"]
+  "open-next.config.mjs"]
 }
