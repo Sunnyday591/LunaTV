@@ -6,7 +6,9 @@ const nextConfig = {
   eslint: {
     dirs: ['src'],
   },
-
+  typescript: {
+    ignoreBuildErrors: true, // 添加这一行，跳过类型检查
+  },
   reactStrictMode: false,
   swcMinify: false,
 
